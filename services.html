@@ -1,0 +1,484 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+
+		<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-database.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyALsn0okJTVUh-X0a29U6yT6m_7SGu_nQI",
+		    //authDomain: "timesaver-86af0.firebaseapp.com",
+		    databaseURL: "https://timesaver-86af0.firebaseio.com",
+		    projectId: "timesaver-86af0",
+		    storageBucket: "",
+		    //messagingSenderId: "258566913531"
+		  };
+			firebase.initializeApp(config);
+
+		</script>
+
+		<meta charset="UTF-8">
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="colorlib">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		
+		<!-- Site Title -->
+		<title>Dentist</title>
+
+		
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			<!--
+			CSS
+			============================================= -->
+
+			<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/nice-select.css">							
+			<link rel="stylesheet" href="css/animate.min.css">
+			<link rel="stylesheet" href="css/jquery-ui.css">			
+			<link rel="stylesheet" href="css/owl.carousel.css">
+			<link rel="stylesheet" href="css/main.css">
+			<link rel="stylesheet" href="css/timesaver.css">
+
+
+		
+		
+		
+		</head>
+		<body>	
+ 			<header id="header" id="home">
+		  		<div class="header-top">
+		  			<div class="container">
+				  		<div class="row align-items-center">
+				  			<div class="col-lg-6 col-sm-6 col-4 header-top-left no-padding">
+				        		<a href="index.html">
+				        			<h3 style="color: #116089; font-family: 'Arial Black', Gadget, sans-serif;
+        								font-size: 40px/1.4em; font-variant-east-asian: normal; 
+        								letter-spacing: 2px;">
+        									TIMESAVER
+        							</h3>
+				        		</a>			
+				  			</div>
+				  			<div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
+				  				<a href="index.html" >
+				  					<img src="img/oneshot.png" width="70" height="70" alt="" title="" />
+				  				</a>
+				  			</div>
+				  		</div>			  					
+		  			</div>
+				</div>
+
+			    <div class="container main-menu" style="background-image:-moz-linear-gradient(45deg, #52B6D1 0%, #009688 100%);background-image:-webkit-linear-gradient(45deg, #52B6D1 0%, #009688 100%);
+			    	background-image: linear-gradient(45deg, #52B6D1 0%, #009688 100%);">
+			    	<div class="row justify-content-between align-items-center d-flex" >
+				      <nav id="nav-menu-container">
+				        <ul class="nav-menu">
+				          <li class="menu-active">
+				          	<a href="index.html" style="font-size: 20px;">
+				          		Home
+				          	</a>
+				          </li>
+				          <li><a href="about.html" style="font-size: 20px;">About</a></li>
+				         <!--  <li><a href="about.html">About</a></li> -->
+				          <li>
+				          	<a href="services.html" style="font-size: 20px;">
+				          		Services
+				          	</a>
+				     	 </li>
+				          <!-- <li><a href="opening-hour.html">Opening Hour </a></li>       	           
+				          <li><a href="contact.html">Contact</a></li> -->
+				        </ul>
+				      </nav><!-- #nav-menu-container -->   		
+			    	</div>
+			    </div>
+			  </header><!-- #header -->
+			  
+			<!-- start banner Area -->
+			<section class="banner-area relative " id="home">	
+				<div class="overlay "></div>
+				<div class="container">				
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="about-content col-lg-12">
+							<h1  style="color: black;">
+								Services for Queensland			
+							</h1>	
+							<p class="text-white link-nav">
+								<a href="index.html" style="color: #116089;">Home </a>  
+								<span class="lnr lnr-arrow-right" style="color: #116089;"></span> 
+								 <a href="services.html" style="color: #116089;"> Services</a></p>
+						</div>	
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->
+
+			<!-- Start service Area -->
+			<section class="service-area service-section-gap">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="col-md-12 pb-40 header-text text-center"
+						style="margin-top: 30px;">
+							<h1 class="pb-10">What we offer to our Users</h1>
+							<p>
+								Who are tired of long dental waiting lists.
+							</p>
+						</div>
+					</div>	
+
+					<div class="row text-center">
+						<div class="col-lg-6">
+							<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3" 
+							style="border-style: outset;border-width: 3px;">
+								<div class="features-icons-icon d-flex justify-content-center" style="padding-top:3px;">
+									<br>
+									<a id='newPatient' href="#" >
+										<i id="icon-new-patient" class="glyphicon icon-plus link-icon  m-auto text-primary" style="padding-bottom: 20px;"></i>
+									</a>
+									
+								</div>
+								<h3>New Patient</h3>
+								<p class="lead mb-0">
+									<p></p>
+									If you are not in the waiting list of any public dental health clinic,
+									please click this icon and you will find the clinics with general treatment.
+									<p></p>
+								</p>	
+							</div>
+						</div>
+
+						<div class="col-lg-6">
+							<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3" 
+							style="border-style:outset;border-width: 3px;">
+
+								<div class="features-icons-icon d-flex justify-content-center" style="padding-top:3px;">
+
+									<a data-target="#patientOption" data-toggle="modal">
+										<i id="icon-existing" class="glyphicon icon-time m-auto link-icon text-primary" style="padding-bottom: 20px";></i>
+									</a>
+									
+								</div>
+								<h3>Existing Patient</h3>
+								<p class="lead mb-0">
+									<p></p>
+									If you are already waiting in the queue of a public dental clinic, please click here to find out clinics with a shorter waiting list.
+									<p></p>
+								</p>	
+							</div>
+						</div>
+
+						<!-- <div class="col-lg-4">
+							<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3" >
+								<div class="features-icons-icon d-flex">
+									<i id="icon-historical" class="glyphicon icon-history link-icon m-auto text-primary" style="padding-bottom: 20px";></i>
+								</div>
+								<h3>Histroical Info</h3>
+								<p class="lead mb-0">
+									If you are not in the waiting list of public dental health,
+									please click the icon and you will find the clinics with short waiting list.
+								</p>	
+							</div>
+						</div> -->
+
+
+						
+					</div>
+
+
+				</div>	
+			</section>
+			<!-- End service Area -->
+
+		
+
+			
+			<!-- Modal -->
+			<div class="modal fade" id="patientOption" taindex = "-1" role="dialog" aria-labelledby="optionTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centred modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="optionTitle">
+								Patient Options:
+							</h5>
+							<button  type="button" class="close" data-dismiss="modal" aria-label = "Close">
+								<span aria-hidden="true"> &times;</span>
+							</button>
+						</div>
+
+						<div class="modal-body">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-12 form-inline justify-content-start d-flex">
+										<label style="padding-right:5px;">Category: </label>
+										<form >
+											<select id="categorySelect" name="categorySelectList" class="custom-select" style="font-size: 13px; height: calc(3rem + 2px);">
+												<script>
+													var categories = "General Anaesthetic Category 3,General Anaesthetic Category 1,General Anaesthetic Category 2,Priority 3,Clinical Assessment,General,Priority 2,Priority 1";
+													var categorySelect = document.getElementById("categorySelect");
+													var categoryList = categories.split(",");
+													categoryList.sort();
+													for (let category of categoryList)
+													{
+														var option = document.createElement("option");
+														option.value = category;
+														option.text = category;
+														categorySelect.add(option);
+													}
+												</script>
+											</select>
+										</form>
+									</div>
+
+									<div class="col-md-12 justify-content-start form-inline" style="margin-top:10px;">
+										<label style="padding-right:5px;">
+											How many months have you been waiting: 
+										</label>
+										<form>
+											<input type="text" name="timeField" id="timeField" class="form-control form-control" maxlength="2" style="font-size:15px;width: 50px;">
+										</form>
+										
+									 </div>
+									
+									<div class="col-md-12 justify-content-start form-inline" style="margin-top:10px;">
+										<label style="padding-right:5px;">
+											Hospital:
+										</label>
+										<form>
+											<select name="hospitalSelect" id="hospitalSelect" class="custom-select" style="font-size: 13px; height: calc(3rem + 2px);">
+												<script>
+													var hospitals = "WARWICK HOSPITAL,MORNINGTON ISLAND HEALTH CENTRE,MONTO HOSPITAL,GATTON HOSPITAL,TOWNSVILLE HOSPITAL,TOOWOOMBA HOSPITAL,BOONAH HEALTH SERVICE,METRO SOUTH HEALTH(BAYSIDE),MARYBOROUGH HOSPITAL,NOOSA COMMUNITY HEALTH CENTRE,THARGOMINDAH HOSPITAL,DIRRANBANDI HOSPITAL,AYR HEALTH SERVICE,NAMBOUR GENERAL HOSPITAL,MUNGINDI HOSPITAL,PINE RIVERS COMMUNITY HEALTH,INDOOROOPILLY DENTAL CLINIC,CROYDON HOSPITAL,KAWANA ORAL HEALTH - PUBLIC DENTAL, SUNSHINE COAST HOSPITAL AND HEALTH SERVICE,BUNDABERG HOSPITAL,MITCHELL GENERAL HOSPITAL,CUNNAMULLA HOSPITAL,GURRINY YEALAMUCKA PRIMARY HEALTH CARE CENTRE (YARRABAH),STANTHORPE HOSPITAL,COLLINGWOOD DENTAL CLINIC,INNISFAIL HOSPITAL,MILES HOSPITAL,GLADSTONE HOSPITAL,CABOOLTURE HOSPITAL,HUGHENDEN HEALTH SERVICE,METRO SOUTH HEALTH(WIDE),COOKTOWN MULTIPURPOSE HEALTH SERVICE,ABORIGINAL & TORRES STRAIT ISLANDER COMMUNITY HEALTH SERVICE BRISBANE,INJUNE MEDICAL CENTER,GEORGETOWN PRIMARY HEALTH CENTRE,TULLY HOSPITAL,METRO SOUTH HEALTH(INNER BRISBANE),STAFFORD DENTAL CLINIC - QLD ORAL HEALTH SERVICES,CALOUNDRA HEALTH SERVICE,ROMA HOSPITAL,PALM BEACH COMMUNITY HEALTH CENTRE,MOUNT ISA HOSPITAL,GOLD COAST UNIVERSITY HOSPITAL,RICHMOND HOSPITAL,METRO SOUTH HEALTH(KINGSTON LOGAN),GOONDIWINDI HOSPITAL,ESK HOSPITAL,HERVEY BAY HOSPITAL,ATHERTON HOSPITAL,CHARLEVILLE HOSPITAL,ROBINA HEALTH PRECINCT,BOWEN HOSPITAL DENTAL CLINIC,QUILPIE HOSPITAL,CAPRICORN COAST COMMUNITY DENTAL CLINIC,CLONCURRY HOSPITAL,METRO SOUTH HEALTH(BEENLEIGH BEAUDESERT),MAREEBA HOSPITAL,METRO SOUTH HEALTH (NATHAN INALA),CAIRNS NORTH COMMUNITY HEALTH,MOUNT MORGAN HOSPITAL,ROCKHAMPTON HOSPITAL,MOSSMAN MULTI PURPOSE HEALTH SERVICE,SURAT HOSPITAL,ST GEORGE HOSPITAL,INGHAM HEALTH SERVICES,EMERALD HOSPITAL,PROSERPINE HOSPITAL,REDCLIFFE HOSPITAL,SANDGATE DENTAL CLINIC (STATE GOVERNMENT),GAYNDAH HOSPITAL,BILOELA COMMUNITY DENTAL CLINIC,LAIDLEY HOSPITAL,METRO SOUTH HEALTH(COMMUNITY),INGLEWOOD MULTIPURPOSE HEALTH SERVICE,CHARTERS TOWERS HOSPITAL,GYMPIE HOSPITAL,CHILDERS HOSPITAL,CLERMONT HOSPITAL,DALBY HEALTH,SOUTHPORT HEALTH PRECINCT,QUEENSLAND HEALTH,SUNSHINE COAST UNIVERSITY HOSPITAL,SMITHFIELD COMMUNITY HEALTH CENTRE,CENTRAL WEST HOSPITAL AND HEALTH SERVICE,KINGAROY HOSPITAL,COLLINSVILLE MULTI PURPOSE HEALTH,MACKAY BASE HOSPITAL,HERSTON ORAL HEALTH CENTRE,MUNDUBBERA HOSPITAL,IPSWICH COMMUNITY DENTAL CLINIC,LADY CILENTO CHILDREN°ØS HOSPITAL";
+													var hospitalList = hospitals.split(",");
+													hospitalList.sort();
+													var hospitalSelect = document.getElementById("hospitalSelect"); 
+
+													for(let hospital of hospitalList)
+													{
+														var option = document.createElement("option");
+														option.text = hospital;
+														option.value = hospital;
+														hospitalSelect.add(option);
+													}
+												</script>
+											</select>
+										</form>
+									 </div>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button id="search" type="button" class="btn btn-primary" style="font-size: 15px;">
+								Search
+							</button>
+        					<button type="button" class="btn btn-secondary" data-dismiss="modal" style="font-size: 15px;">
+        						Close
+        					</button>
+						</div>								
+					</div>
+				</div>
+			</div>
+
+			<!-- modal end -->
+			<!-- <section id="searchSection" class="section-gap testomial-area hidden-search-section" style="visibility:hidden;">
+				<div class="container" >
+					<div class="justify-content-center d-flex" 
+					style="background-color: #33CC99;padding-bottom: 10px;padding-top: 10px;">
+						<div class="row col-md-12 ">
+							<div class="form-inline col-md-4">
+								<label class="text-white">Category:</label>
+								<form  class="select-items">
+									<select id="categorySearchSelect" name="categorySelectList" >
+										<option value="General Assessment">General Assessment</option>
+										<option value="Priority 1">Priority 1</option>
+										<option value="Priority 2">Priority 2</option>
+										<option value="Priortiy 3">Priority 3</option>
+									</select>
+								</form>
+							</div>
+
+							<div class="form-inline col-md-4">
+								<label class="text-white" style="padding-right:5px;">
+									Waiting Time: 
+								</label>
+								<form>
+									<input type="text" name="timeSearchField" id="timeSearchField" class="form-control form-control" 
+									maxlength="2" max="90"style="font-size:15px;width: 50px;">
+								</form>
+								<label class="text-white" style="padding-left: 5px;">months</label>
+							 </div>
+
+							<div class="form-inline col-md-2">
+								<label class="text-white">Area Code: </label>
+								<form>
+								<input type="text" name="areaSearchField" id="areaSearchField" class="form-control form-control" minlength="4" maxlength="4" style="font-size:15px;width: 50px;">
+								</form>
+							</div>
+
+							<div class="justify-content-center align-items-center d-flex col-md-2">
+								<button id="searchButton" type="button " class="btn btn-primary" 
+									style="font-size: 15px;">
+									Search
+								</button>
+							</div>		
+						</div>
+					</div>
+				</div>
+
+
+				<div class="section-gap  align-items-center">
+					<div  id = "cardArea" class="container">
+
+					</div>
+				</div> -->
+
+		</section>
+			<section id="newSearchSection" class="section-gap testomial-area justify-content-center align-self-center hidden-search-section" 
+			style="position: relative;margin-bottom: 20px;visibility: hidden;margin-top:10px;">
+				<div class="container  justify-content-start" style="border-style:solid;border-width:2px">
+					<div class="text-center col-12 justify-content-center align-itmes-center">
+						<div class="  justify-content-center align-items-center">
+							<label id="patientTag" style="font-size: 20px;margin-top:10px;" >
+								Type: New Patient
+							</label>
+						</div>
+						<div class="col-12=">
+							<label id="categoryLabel" class=" justify-content-start col-12" style="padding-right:5px;">
+								Category
+							</label>
+						</div>
+					</div>
+					<div class=" form-inline justify-content-start" style="margin-bottom:10px;">
+						<label style="padding-right:5px;">
+							Hospital:
+						</label>
+						<form >
+						<select name="clinicSelect" id="clinicSelect" class="custom-select" style="font-size: 13px; height: calc(3rem + 2px);">
+						<script>
+							try {
+								var hospitals = "All,WARWICK HOSPITAL,MORNINGTON ISLAND HEALTH CENTRE,MONTO HOSPITAL,GATTON HOSPITAL,TOWNSVILLE HOSPITAL,TOOWOOMBA HOSPITAL,BOONAH HEALTH SERVICE,METRO SOUTH HEALTH(BAYSIDE),MARYBOROUGH HOSPITAL,NOOSA COMMUNITY HEALTH CENTRE,THARGOMINDAH HOSPITAL,DIRRANBANDI HOSPITAL,AYR HEALTH SERVICE,NAMBOUR GENERAL HOSPITAL,MUNGINDI HOSPITAL,PINE RIVERS COMMUNITY HEALTH,INDOOROOPILLY DENTAL CLINIC,CROYDON HOSPITAL,KAWANA ORAL HEALTH - PUBLIC DENTAL, SUNSHINE COAST HOSPITAL AND HEALTH SERVICE,BUNDABERG HOSPITAL,MITCHELL GENERAL HOSPITAL,CUNNAMULLA HOSPITAL,GURRINY YEALAMUCKA PRIMARY HEALTH CARE CENTRE (YARRABAH),STANTHORPE HOSPITAL,COLLINGWOOD DENTAL CLINIC,INNISFAIL HOSPITAL,MILES HOSPITAL,GLADSTONE HOSPITAL,CABOOLTURE HOSPITAL,HUGHENDEN HEALTH SERVICE,METRO SOUTH HEALTH(WIDE),COOKTOWN MULTIPURPOSE HEALTH SERVICE,ABORIGINAL & TORRES STRAIT ISLANDER COMMUNITY HEALTH SERVICE BRISBANE,INJUNE MEDICAL CENTER,GEORGETOWN PRIMARY HEALTH CENTRE,TULLY HOSPITAL,METRO SOUTH HEALTH(INNER BRISBANE),STAFFORD DENTAL CLINIC - QLD ORAL HEALTH SERVICES,CALOUNDRA HEALTH SERVICE,ROMA HOSPITAL,PALM BEACH COMMUNITY HEALTH CENTRE,MOUNT ISA HOSPITAL,GOLD COAST UNIVERSITY HOSPITAL,RICHMOND HOSPITAL,METRO SOUTH HEALTH(KINGSTON LOGAN),GOONDIWINDI HOSPITAL,ESK HOSPITAL,HERVEY BAY HOSPITAL,ATHERTON HOSPITAL,CHARLEVILLE HOSPITAL,ROBINA HEALTH PRECINCT,BOWEN HOSPITAL DENTAL CLINIC,QUILPIE HOSPITAL,CAPRICORN COAST COMMUNITY DENTAL CLINIC,CLONCURRY HOSPITAL,METRO SOUTH HEALTH(BEENLEIGH BEAUDESERT),MAREEBA HOSPITAL,METRO SOUTH HEALTH (NATHAN INALA),CAIRNS NORTH COMMUNITY HEALTH,MOUNT MORGAN HOSPITAL,ROCKHAMPTON HOSPITAL,MOSSMAN MULTI PURPOSE HEALTH SERVICE,SURAT HOSPITAL,ST GEORGE HOSPITAL,INGHAM HEALTH SERVICES,EMERALD HOSPITAL,PROSERPINE HOSPITAL,REDCLIFFE HOSPITAL,SANDGATE DENTAL CLINIC (STATE GOVERNMENT),GAYNDAH HOSPITAL,BILOELA COMMUNITY DENTAL CLINIC,LAIDLEY HOSPITAL,METRO SOUTH HEALTH(COMMUNITY),INGLEWOOD MULTIPURPOSE HEALTH SERVICE,CHARTERS TOWERS HOSPITAL,GYMPIE HOSPITAL,CHILDERS HOSPITAL,CLERMONT HOSPITAL,DALBY HEALTH,SOUTHPORT HEALTH PRECINCT,QUEENSLAND HEALTH,SUNSHINE COAST UNIVERSITY HOSPITAL,SMITHFIELD COMMUNITY HEALTH CENTRE,CENTRAL WEST HOSPITAL AND HEALTH SERVICE,KINGAROY HOSPITAL,COLLINSVILLE MULTI PURPOSE HEALTH,MACKAY BASE HOSPITAL,HERSTON ORAL HEALTH CENTRE,MUNDUBBERA HOSPITAL,IPSWICH COMMUNITY DENTAL CLINIC,LADY CILENTO CHILDREN°ØS HOSPITAL";
+									var hospitalList = hospitals.split(",");
+									hospitalList.sort();
+									var hospitalSelect = document.getElementById("clinicSelect"); 
+
+									for(let hospital of hospitalList)
+									{
+										var option = document.createElement("option");
+										option.text = hospital;
+										option.value = hospital;
+										if(hospital == "All")
+										{
+											option.selected = true;
+											console.info("option");
+											console.info(option.selected);
+										}
+										hospitalSelect.add(option);
+									}
+									
+								// statements
+									} catch(e) {
+								// statements
+									console.log(e);
+								}
+								
+						</script>
+							</select>
+						</form>
+						<button id="searchButton" class="btn btn-primary">
+							Search
+						</button>
+					</div>
+				</div>
+				<div class="container">
+					<div id="resultlist" style="border:solid;border-width: 2px; margin-top: 20px;">
+				</div>
+				</div>
+				
+			</section>
+
+			
+				
+			
+
+			
+
+			<!-- Start testomial Area -->
+
+
+																			
+			<!-- start footer Area -->		
+			<footer class="footer-area section-gap">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-2  col-md-6 justify-content-between">
+							
+						</div>
+						<div class="col-lg-4  col-md-6">
+							<div class="single-footer-widget mail-chimp">
+								<h3 class="mb-20 " >Contact Us</h3>
+								<p></p>
+								<h6>Email Address</h6>
+								<p>
+									oneshot@gmail.com
+								</p>
+								
+							</div>
+						</div>							
+						<div class="col-lg-6  col-md-12">
+							<div class="single-footer-widget newsletter">
+								<br>
+								<br>
+								<h6>Operating Hours</h6>
+								<p>Monday - Friday 9AM - 7PM</p>
+								<p>Saturday 9AM - 2PM</p>
+								<div id="mc_embed_signup">
+									<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
+										<div class="info"></div>
+									</form>
+								</div>		
+							</div>
+						</div>					
+					</div>
+
+					<div class="row footer-bottom d-flex justify-content-between">
+						<p class="col-lg-8 col-sm-12 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+						
+					</div>
+				</div>
+			</footer>
+			<!-- End footer Area -->
+
+			
+
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>			
+			<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script> -->
+  			<script src="js/easing.min.js"></script>			
+			<script src="js/hoverIntent.js"></script>
+			<script src="js/superfish.min.js"></script>	
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>	
+ 			<script src="js/jquery-ui.js"></script>			
+			<script src="js/owl.carousel.min.js"></script>						
+			<script src="js/jquery.nice-select.min.js"></script>			
+			
+			<script src="js/mail-script.js"></script>	
+			<script src="js/main.js"></script>	
+
+			<script src="js/timesaver.js"></script>
+		</body>
+	</html>			

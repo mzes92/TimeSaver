@@ -1,0 +1,50 @@
+.card-area{opacity:0.8; }
+.cardChange{background-color: lightblue ;}
+
+.features-icons .features-icons-item {
+    max-width: 20rem;
+}
+.features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+}
+.icon-plus:before {
+	content:"\2b";
+	font-family: "Glyphicons Halflings";
+	
+
+}
+.icon-time:before  {
+	content:"\231b";
+	font-family: "Glyphicons Halflings";
+	
+	
+}
+.icon-history:before{
+	content:"\e240";
+	font-family: "Glyphicons Halflings";
+	
+	
+}
+.lead{
+	font-size: 1.25rem;
+}
+.service-section-gap{
+	padding-bottom: 20px;
+}
+.link-icon{
+	font-size: 3rem;
+}
+.hover-icon{
+	font-size: 5rem;
+}
+
+
+.hidden-search-section{
+	margin-top:0px;
+	margin-bottom:0px;
+	
+}
+.search-section{
+	margin-top: 20px;
+	margin-bottom:20px;
+}
